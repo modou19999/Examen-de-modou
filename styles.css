@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* se cambia despues usar la p'lata pedido */
+  background-color: black;
+  color: aliceblue;
+
+  font-size: 15px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section class container */
+.container {
+  background-color: rgb(129, 125, 125);
+  width: 320px;
+  height: 400px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 0.6fr;
+  /* gap: 30px; */
+}
+
+/* div con class icon */
+.icon {
+  background-color: rgb(99, 87, 87);
+  width: 60px;
+  height: 60px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 50%;
+}
+
+/* div con class cabecera */
+.cabecera {
+  margin-left: 25px;
+  display: grid;
+  gap: 1;
+}
+
+/* nav contenido */
+nav {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
