@@ -1,0 +1,45 @@
+h1 {
+  display: grid;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 15px;
+  display: grid;
+  justify-content: center;
+  width: 300px;
+  text-align: center;
+}
+a {
+  font-size: larger;
+  text-decoration: none;
+  color: hsl(25, 97%, 53%);
+}
+
+/* div class icons */
+.icons {
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+ul {
+  background-color: hsl(214, 24%, 26%);
+  border: 1px solid rgb(41, 41, 41);
+  border-radius: 10px;
+  height: 35px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* div class title */
+.title {
+  display: grid;
+  justify-content: center;
+}
