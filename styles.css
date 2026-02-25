@@ -52,18 +52,22 @@ body {
 
 /* nav contenido */
 nav {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
+
   list-style: none;
 }
 
 li {
   background-color: rgb(99, 87, 87);
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -73,4 +77,15 @@ li {
 a {
   text-decoration: none;
   color: aliceblue;
+}
+
+/* button */
+button {
+  color: rgb(209, 205, 203);
+  border-radius: 10px;
+  border: 0;
+  background-color: chocolate;
+  width: 260px;
+  height: 50px;
+  align-items: center;
 }
