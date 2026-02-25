@@ -1,9 +1,15 @@
 h1 {
+  display: grid;
+  justify-content: center;
   color: hsl(0, 0%, 100%);
 }
 
 p {
   font-size: 15px;
+  display: grid;
+  justify-content: center;
+  width: 300px;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -17,8 +23,19 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: hsl(213, 19%, 18%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* div class title */
+.title {
+  width: 370px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
