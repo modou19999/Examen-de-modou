@@ -91,7 +91,7 @@ h1 {
   gap: 10px;
 }
 
-a {
+.href {
   text-decoration: none;
   color: rgb(209, 205, 203);
 }
@@ -106,5 +106,3 @@ a {
   height: 60px;
   margin-bottom: 20px;
 }
-
-
