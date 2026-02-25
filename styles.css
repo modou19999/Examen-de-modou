@@ -6,10 +6,11 @@
 
 body {
   /* se cambia despues usar la p'lata pedido */
-  background-color: black;
-  color: aliceblue;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
 
   font-size: 15px;
+
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto;
@@ -19,9 +20,9 @@ body {
 
 /* section class container */
 .container {
-  background-color: rgb(129, 125, 125);
-  width: 320px;
-  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  width: 375px;
+  height: 450px;
   border-radius: 15px;
   display: grid;
   grid-template-rows: 0.6fr;
@@ -30,10 +31,11 @@ body {
 
 /* div con class icon */
 .icon {
-  background-color: rgb(99, 87, 87);
+  background-color: hsl(217, 7%, 34%);
+  border: 1px solid;
   width: 60px;
   height: 60px;
-
+  font-size: 15px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -45,11 +47,14 @@ body {
 
 /* div con class cabecera */
 .cabecera {
+  margin-right: 25px;
   margin-left: 25px;
   display: grid;
-  gap: 1;
 }
 
+p {
+  font-size: 15px;
+}
 /* nav contenido */
 nav {
   display: grid;
@@ -60,14 +65,15 @@ nav {
 ul {
   display: flex;
   justify-content: space-between;
-
+  gap: 10px;
   list-style: none;
 }
 
 li {
-  background-color: rgb(99, 87, 87);
-  width: 45px;
-  height: 45px;
+  background-color: hsl(217, 7%, 34%);
+  border: 1px solid;
+  width: 60px;
+  height: 60px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -84,8 +90,8 @@ button {
   color: rgb(209, 205, 203);
   border-radius: 10px;
   border: 0;
-  background-color: chocolate;
+  background-color: hsl(25, 97%, 53%);
   width: 260px;
-  height: 50px;
+  height: 60px;
   align-items: center;
 }
