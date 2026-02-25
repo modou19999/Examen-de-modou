@@ -60,7 +60,7 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 
-p {
+.p-cabecera {
   font-size: 15px;
 }
 /* nav contenido */
@@ -78,7 +78,7 @@ ul {
   list-style: none;
 }
 
-li {
+.list {
   background-color: hsl(217, 7%, 34%);
   border: 1px solid;
   width: 50px;
@@ -97,7 +97,7 @@ a {
 }
 
 /* button */
-button {
+.button {
   color: rgb(209, 205, 203);
   border-radius: 10px;
   border: 0;
