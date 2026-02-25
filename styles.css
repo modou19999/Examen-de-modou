@@ -98,7 +98,8 @@ h1 {
 
 /* button */
 .button {
-  color: rgb(209, 205, 203);
+  color: hsl(217, 7%, 34%);
+  font-size: 20px;
   border-radius: 10px;
   border: 0;
   background-color: hsl(25, 97%, 53%);
