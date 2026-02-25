@@ -10,6 +10,10 @@ body {
   color: hsl(217, 12%, 63%);
 
   font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 
   min-height: 100vh;
   display: grid;
@@ -22,7 +26,7 @@ body {
 .container {
   background-color: hsl(213, 19%, 18%);
   width: 375px;
-  height: 450px;
+  height: 480px;
   border-radius: 15px;
   display: grid;
   grid-template-rows: 0.6fr;
@@ -52,12 +56,17 @@ body {
   display: grid;
 }
 
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
 p {
   font-size: 15px;
 }
 /* nav contenido */
-nav {
+.nav {
   display: grid;
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }
@@ -65,24 +74,26 @@ nav {
 ul {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+
   list-style: none;
 }
 
 li {
   background-color: hsl(217, 7%, 34%);
   border: 1px solid;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
+
   display: grid;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  gap: 10px;
 }
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(209, 205, 203);
 }
 
 /* button */
@@ -91,7 +102,7 @@ button {
   border-radius: 10px;
   border: 0;
   background-color: hsl(25, 97%, 53%);
-  width: 260px;
+  width: 320px;
   height: 60px;
-  align-items: center;
+  margin-bottom: 20px;
 }
