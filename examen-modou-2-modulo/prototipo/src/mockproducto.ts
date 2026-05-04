@@ -2,6 +2,7 @@
 
 // mockProducts.ts
 export const mockProducts = [
+    // id 1
     {
         id: '1', // id unico del producto
         name: 'Ordenador', // nombre del producto
@@ -10,7 +11,7 @@ export const mockProducts = [
         created_at: new Date(), // esta para la fecha de creacion
         update_at: new Date(), // y este para la fecha de actualizacion
     },
-
+    // id 2
     {
         id: '2',
         name: 'Smartphone',
