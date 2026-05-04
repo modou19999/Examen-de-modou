@@ -1,4 +1,3 @@
-
 El objetivo de la segunda parte es añadir una arquitectura en capas a la API y persistencia en una DB.
 
 Utiliza un patrón de diseño MVC para la estructura del proyecto.
